@@ -46,8 +46,14 @@ span.icon {
 } 
 
 div.ref {
+    font-size: 8pt;
     text-align: center;
     color:white;
+}
+
+p.author {
+    text-align: center;
+    color: white;
 }
 a.icon_link {
     color: lightblue;
