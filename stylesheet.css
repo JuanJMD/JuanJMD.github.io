@@ -1,0 +1,54 @@
+body {
+    background-image: url(/images/backWall.jpeg);
+    background-repeat: repeat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div.socials {
+    text-align: center;
+    padding: 10px;
+}
+
+.bData{
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 10px;
+
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(151, 149, 149, 0.5);
+    font-size: 18px;
+}
+
+span.icon {
+    display:block;
+}
+
+.bData:hover {
+    color: rgb(0,0,0);
+    background-color: rgb(255, 255, 255);
+    transition-property: background-color color;
+    transition-duration: 0.4s;
+    cursor: pointer;
+} 
+
+div.ref {
+    text-align: center;
+    color:white;
+}
+a.icon_link {
+    color: lightblue;
+}
