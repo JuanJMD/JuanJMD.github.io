@@ -1,0 +1,337 @@
+
+html
+{
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a
+{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    min-width: 99%;
+    max-width: 70%;
+
+    
+
+}
+.navItem
+{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 14pt
+
+}
+.linkage
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.linkage:hover
+{
+    color: blue;
+}
+
+#pageTitle
+{
+    padding-top: 160px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.sectionHeading::before {
+    content: "";
+    display: block;
+    height: 100px; /* Adjust this value to match or exceed your navbar's height */
+    margin-top: -100px; /* This should be the same value as height but negative */
+    visibility: hidden;
+    pointer-events: none; /* Ensures clicks go through this spacer */
+}
+.sectionDiv
+{
+    padding-bottom: 50px;
+}
+
+#aboutContainer
+{
+    padding: 1em;
+    
+ 
+}
+.aboutDescription
+{
+    font-size: 13pt;
+    min-width: 30%;
+    margin: 0px 10px;
+    padding: 10px;
+    background: linear-gradient(55deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+
+    /*box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);*/
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+
+}
+
+#eduItems
+{
+    /*
+    display:flex;
+    justify-content: center;
+    */
+    padding: 1em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+
+}
+
+.schoolLogo
+{
+    margin-left: auto;
+    height: 100px;
+    overflow: hidden;
+
+}
+.EDUdescription
+{
+    display:flex;
+    justify-content: space-between;
+
+    /*width: 50%;*/
+    min-width: 30%;
+    margin: 0px 10px;
+    padding: 10px;
+    background: linear-gradient(55deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+
+}
+.college
+{
+    color:black;
+    margin: 0px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 15pt;
+    font-style: italic;
+
+}
+.collegeLink
+{
+    color:black;
+    font-size: 16pt;
+    margin: 0px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+.collegeLink:hover
+{
+    color:blue;
+}
+/*
+.description
+{
+    font-style: italic;
+}
+*/
+.collegeInfo
+{
+    font-style: italic;
+    font-size: 13pt;
+    list-style: none;
+    margin: 7px;
+    padding: 0px 8px;
+}
+
+.projectInfo
+{
+    font-size: 13pt;
+    list-style: none;
+    margin: 7px;
+    padding: 0px 8px;
+}
+
+#projectBlocks, #contactOptionsDisplay
+{
+    padding: 1em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+
+.projectContainer
+{
+    margin: 0px 10px 30px 10px;
+    padding: 10px;
+    background: linear-gradient(55deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.projectName
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:20px;
+    color:black;
+    font-size: 16pt;
+    margin: 0px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.generalContainer
+{
+
+    margin: 0px 10px 30px 10px;
+    padding: 10px;
+    background: linear-gradient(55deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+#intro_title, #desc
+{
+    text-align: center;
+}
+#desc
+{
+    font-size: 13pt;
+}
+
+#contactOptionsDisplay
+{
+
+    margin: 0em 15em;
+    padding: 1em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    transition: 0.5s;
+}
+.contactTitle
+{
+    font-weight: bold;
+    transition: 0.5s;
+}
+.contactSection:hover > .contactTitle
+{
+    transform: scale(1.5);
+}
+.container
+{
+    min-width: 30%;
+    margin: 0px 10px;
+    padding: 10px;
+    background: linear-gradient(55deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+#contactDesc
+{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.contactSection
+{
+    text-align: center;
+    padding-top: 30px;
+}
+.contactLogo
+{
+    object-fit: contain;
+    height: 50%;
+    width: auto;
+}
+#temp
+{
+    text-align: center;
+}
+
+@media only screen and (max-device-width : 600px) {
+
+    h1
+    {
+        font-size: 45pt;
+    }
+    h2
+    {
+        font-size: 40pt;
+        text-align: center;
+    }
+    #pageTitle
+    {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .sectionDiv
+    {
+        margin-bottom: 5em;
+    }
+    .aboutDescription
+    {
+        font-size: 25pt;
+    }
+    #projectBlocks
+    {
+        display: block;
+    }
+    .collegeLink
+    {
+        font-size: 35pt;
+    }
+    .college
+    {
+        font-size: 30pt;
+        font-style: italic;
+    }
+    .collegeInfo
+    {
+        font-style: italic;
+        font-size: 25pt;
+    }
+
+    .EDUdescription
+    {
+        display: block;
+        text-align: center;
+    }
+    .projectName
+    {
+
+        font-size: 35pt;
+
+    }
+    .projectInfo, #contactDesc, .contactTitle
+    {
+        font-size: 25pt;
+    }
+    #contactOptionsDisplay
+    {
+        display: block;
+    }
+}

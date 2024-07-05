@@ -1,73 +1,155 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <head>
-         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9M14WBB81"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-P9M14WBB81');
-        </script>
-
-        <title>Nito's Links</title>
-        <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+        <title>Welcome!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-
     <body>
-        <h1 class="site-title">@n.iito</h1>
-        <div class="socials">
-            <form action="/Exercise 2/L3E2-Page1.html">
-                <button class="bData">
-                    <span class="icon">
-                    </span>
-                    Gato Site - Gato Site - Gato Site
-                </button>
-            </form>
-            <form action="https://www.instagram.com/n.iito/">
-                <button class="bData">
-                    <span class="icon">
-                        <img src="/icons/icons8-instagram-64.png" width = "40", height = "40">
-                    </span>
-                    Instagram
-                </button>                
-            </form>
-            <form action="https://twitter.com/niito_01">
-                <button class="bData">
-                    <span class="icon">
-                        <img src="/icons/icons8-twitter-64.png" width = "40", height = "40">
-                    </span>
-                    Twitter
-                </button>
-            </form>
-            <form action="https://github.com/JuanJMD">
-                <button class="bData">
-                    <span class="icon">
-                        <img src="/icons/icons8-github-64.png" width = "40", height = "40">
-                    </span>
-                    GitHub
-                </button>                
-            </form>
-            <form action="https://www.linkedin.com/in/juan-jesus-marquez-diaz/">
-                <button class="bData">
-                    <span class="icon">
-                        <img src="/icons/icons8-linkedin-64.png" width="40", height="40">
-                    </span>
-                    LinkedIn
-                </button>
-            </form>
+        <nav id="navbar">
+            <ul id="navList">
+                <li class="navItem">
+                    <a class="linkage" href="index.html">Home</a>
+                </li>
+                <li class="navItem">
+                    <a class="linkage" href="#AboutMe">About</a>
+                </li>
+                <li class="navItem">
+                    <a class="linkage" href="#ProjectsHeading">Projects</a>
+                </li>
+                <li class="navItem">
+                    <a class="linkage" href="photography.html">Photography</a>
+                </li>
+                <li class="navItem">
+                    <a class="linkage" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 id="pageTitle">Hello, I'm Juan!</h1>
+        <div class="sectionDiv" id="about">
+            <a class="sectionHeading" id="AboutMe">
+                <h2>About Me</h2>
+            </a>
+            <div id="aboutContainer">
+                <div class="aboutDescription">
+                    <p>I'm a recent graduate from Fresno State. 
+                        Some of my interests include:
+                    </p>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Software Development</li>
+                        <li>Data Analysis</li>
+                        <li>Network Analysis</li>
+                        <li>& Research Opportunities</li>
+                    </ul>
+                </div>
+    
+            </div>
         </div>
-        <footer>
-            <p class="author">Created by Nito</p>
-            <div class="ref">
-                Icons by <a class="icon_link" href="https://icons8.com">Icons8</a>
-                <p>Background used from Adobe Stock</p>
+        <div class="sectionDiv" id="education">
+
+            <a class="sectionHeading" id="Education">
+                <h2>Education</h2>
+            </a>            
+            <div id="eduItems">
+                <div class="EDUdescription">
+                    <div class="eduText">
+                        <a class="collegeLink" href="https://www.fresnostate.edu/">California State University, Fresno</a>
+                        <p class="college">Fresno, CA</p>
+                        <ul class="collegeInfo">
+                            <li class="description">January 2022 - May 2024</li>
+                            <li class="description">Bachelor's of Science in Computer Science</li>
+                            <li class="description">GPA: 3.33</li>    
+                        </ul> 
+                    </div>
+                    <img class="schoolLogo" src="images/logos/fresnostate_logo.png">
+                    <br>
+
+                </div>
+                <div class="EDUdescription">
+                    <div class="eduText">
+                        <a class="collegeLink" href="https://www.reedleycollege.edu/">Reedley College</a>
+                        <p class="college">Reedley, CA</p>
+                        <ul class="collegeInfo">
+                            <li class="description">August 2019 - May 2022</li>
+                            <li class="description">Bachelor's of Science in Mathematics and Computer Science</li>
+                            <li class="description">GPA: 3.71</li>        
+                        </ul>  
+                    </div>
+                    <img class="schoolLogo" src="images/logos/rc_paw.png">
+                    <br>
+                </div>
+    
+            </div>
+        </div>
+        <div class="sectionDiv" id="projects">
+            <a class="sectionHeading" id="ProjectsHeading">
+                <h2>Projects</h2>
+            </a>
+            <div id="projectBlocks">
+                <div class="projectContainer">
+                    <div class="projectItem" id="project1">
+                        <h3 class="projectName">Checkers Game Web Project</h3>
+                        <p class="projectInfo">Collaborated on a group of two on developing this project.
+                            The focus was to implement a website where a Checkers game is hosted,
+                            where users can log in and play against each other in the same machine or
+                            against a bot. The project was developed using HTML, CSS, JavaScript, and PHP.
+                            Log in information is stored in a phpMyAdmin database. The project is not currently
+                            hosted on a website but was implemented using XAMPP.
+                        </p>
+                    </div>
+                </div>
+                <div class="projectContainer">
+                    <div class="projectItem" id="project2">
+                        <p class="projectName">Deep Fake Detection Using Benford's Law</p>
+                        <p class="projectInfo">This project was built with two other group members with the help of our 
+                            professor Dr. Belman. The focus of the project is to build a Deep-Fake image
+                            detection model using Benford's Law. Some of the tools used in the project include:
+                            a Kaggle Dataset, Python, and Jupyter Notebook.
+                        </p>
+                    </div>
+                </div>
+                <div class="projectContainer">
+                    <div class="projectItem" id="project3">
+                        <p class="projectName">Nutrition Relational Database</p>
+                        <p class="projectInfo">The following project was built using MySQL and a Kaggle Dataset. Our goal was to 
+                            implement a relational database that stores information about different types of food
+                            and their nutritional values. This would allow users to build a meal plan based on their
+                            nutritional needs. It also served as a way to practice SQL queries and database management.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionDiv" id="contact">
+            <a class="sectionHeading" id="contactHeading">
+                <h2>Contact Info</h2>
+            </a>
+            <div class="container">
+                <p id="contactDesc">Any questions, comments, concerns? Feel free to contact me via email. 
+                    Or connect with me in the following platforms:
+                </p>
+                <div id="contactOptionsDisplay">
+                    <div class="contactSection" id="githubSection">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/JuanJMD">
+                            <img class="contactLogo" src="images/logos/contact/github-mark.png">
+                            <p class="contactTitle">Github</p>
+                        </a>
+                    </div>
+                    <div class="contactSection" id="linkedInSection">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/juan-jesus-marquez-diaz/">
+                            <img class="contactLogo" src="images/logos/contact/In-Blue-128@2x.png">
+                            <p class="contactTitle">LinkedIn</p>    
+                        </a>
+                    </div>
+
+                </div>
+                
             </div>
 
-        </footer>
+        </div>
+
     </body>
 </html>
-
